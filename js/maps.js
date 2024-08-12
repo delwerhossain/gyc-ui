@@ -5,7 +5,7 @@
     '<div class="inner-box">'+
         '<div class="infoBox-close"><i class="fa fa-times"></i></div>'+
         '<div class="image-box">'+
-            '<figure class="image"><img src="'+locationImg+'" alt=""></figure>'+        
+            '<figure class="image"><img loading="lazy" src="'+locationImg+'" alt=""></figure>'+        
         '</div>'+
         '<div class="content">'+
         '<h3><a href="'+locationURL+'">' + locationTitle + '</a></h3>'+
