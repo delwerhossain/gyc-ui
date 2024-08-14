@@ -5710,7 +5710,7 @@ Section Title
   bottom: 0;
   width: 100%;
   height: 220px;
-  background: #777d84; /* Black color for the remaining background */
+  background: #fff; /* Black color for the remaining background */
   z-index: -1;
 }
 
