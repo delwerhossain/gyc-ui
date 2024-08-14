@@ -21471,7 +21471,59 @@ Chat Widget
   height: 4px;
   background-color: #ABAAAA;
 }
+/* sider v1 custom added by delwer */
 
+.inventory-section .side-bar-column.sidev1  .overview-box {
+  border-radius: 16px;
+  border: 1px solid var(--Border, #E1E1E1);
+  background: var(--bg-1, #F9FBFC);
+  padding: 21px 32px 22px;
+  margin-top:20px
+}
+
+.inventory-section .side-bar-column.sidev1  .overview-box .title {
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.inventory-section .side-bar-column.sidev1  .overview-box .list li {
+  font-size: 15px;
+  color: var(--theme-color-dark);
+  font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1px solid #e1e1e1;
+  padding: 11px 0 9px;
+}
+
+.inventory-section .side-bar-column.sidev1  .overview-box .list li:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.inventory-section .side-bar-column.sidev1  .overview-box .list li span {
+  font-weight: 400;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 198px;
+  display: inline-block;
+}
+
+.inventory-section .side-bar-column.sidev1  .overview-box .list li span img {
+  margin-right: 15px;
+  position: relative;
+  top: -2px;
+}
+/* end */
 .inventory-section .side-bar-column.v3 .overview-box {
   border-radius: 16px;
   border: 1px solid var(--Border, #E1E1E1);
